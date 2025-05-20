@@ -33,8 +33,17 @@ This app allows users to set alarms, manage them, and use real-time location fea
 ---
 
 ## 🖼️ Screenshots
+---
+![WhatsApp Image 2025-05-21 at 5 45 09 AM (2)](https://github.com/user-attachments/assets/c5609a1d-9025-4c2b-b0ee-a5e16a265f89)
 
-_Add screenshots here if available (optional but recommended)._
+![WhatsApp Image 2025-05-21 at 5 45 09 AM](https://github.com/user-attachments/assets/43694e8e-9494-4d27-ae61-7c68c81bd8f3)
+
+![WhatsApp Image 2025-05-21 at 5 45 09 AM (1)](https://github.com/user-attachments/assets/928a1933-1e57-4636-b695-426648c79cac)
+
+![WhatsApp Image 2025-05-21 at 5 45 10 AM](https://github.com/user-attachments/assets/c457d6a3-033f-49d8-963d-387f880e453f)
+
+
+
 
 ---
 
