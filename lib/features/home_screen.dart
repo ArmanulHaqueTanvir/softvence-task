@@ -78,11 +78,6 @@ class HomeScreen extends StatelessWidget {
                     CustomButton(
                       onTap: () {
                         _showAddAlarmDialog(context);
-                        NotificationService.showNotification(
-                          id: 1,
-                          title: 'Alarm Set',
-                          body: 'Your alarm has been scheduled.',
-                        );
                       },
                       bgColor: AppColor.kSecoundaryColor,
                       textColor: Colors.white,
@@ -198,6 +193,12 @@ class HomeScreen extends StatelessWidget {
 
       if (pickedDate != null) {
         alarmController.addAlarm(pickedTime, pickedDate);
+        NotificationService.showNotification(
+          id: 1,
+          title: 'Alarm Set Successfully',
+          body:
+              'Your alarm has been scheduled at ${pickedTime.format(context)} ${DateFormat('EEE d MMM yyyy').format(pickedDate)}.',
+        );
       }
     }
   }

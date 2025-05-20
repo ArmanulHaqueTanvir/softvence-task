@@ -1,5 +1,6 @@
 import 'package:alarm_app/common_widgets/custom_button.dart';
 import 'package:alarm_app/constants/colors.dart';
+import 'package:alarm_app/features/home_screen.dart';
 import 'package:alarm_app/features/location_screen.dart';
 import 'package:alarm_app/model/onboarding_model.dart';
 import 'package:flutter/material.dart';
@@ -134,7 +135,7 @@ class _OnboardingSliderState extends State<OnboardingSlider>
             child: GestureDetector(
               onTap: () {
                 // Skip to home
-                // Navigator.pushReplacementNamed(context, '/home');
+                Get.toNamed(LocationScreen.routeName);
               },
               child: const Text(
                 "Skip",

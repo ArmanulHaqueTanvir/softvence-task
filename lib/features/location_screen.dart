@@ -50,7 +50,6 @@ class LocationScreen extends StatelessWidget {
               // SizedBox(height: 10),
               Center(
                 child: Container(
-                  color: Colors.red,
                   height: 260,
                   width: 260,
                   child: ClipRRect(
@@ -65,10 +64,6 @@ class LocationScreen extends StatelessWidget {
 
               SizedBox(height: 10),
 
-              Text(
-                _address == null ? 'hello' : _address!,
-                style: TextStyle(color: Colors.white),
-              ),
               CustomButton(
                 onTap: () async {
                   await locationController.getCurrentLocation().then(
